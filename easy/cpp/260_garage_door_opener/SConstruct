@@ -1,0 +1,8 @@
+name = "Garage Door Opener"
+version = "0.0.1"
+author = "Chris Rhodes"
+email = "crr0004@gmail.com"
+
+source_files = Glob("src/*.cpp")
+
+Program(name + version, source_files)
